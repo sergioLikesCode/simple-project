@@ -1,0 +1,132 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display';
+  box-sizing: border-box;
+}
+
+/* CSS */
+
+body {
+  background: url('https://marwashehata.github.io/Order-summary-component/images/pattern-background-desktop.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.order-summery {
+  background-color: #fff;
+  height: 570px;
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.summery-image img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.summery-info {
+  padding: 20px;
+}
+
+.order-info {
+  margin-bottom: 30px;
+}
+
+.order-info h1 {
+  font-weight: 900;
+}
+.order-info p {
+  color: #7280a7;
+}
+
+.order-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.div1 {
+  display: flex;
+}
+
+.div2 {
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+
+.order-change {
+  margin-right: 15px;
+}
+
+.order-change a {
+  color: #3829e0;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
+.order-change a:hover {
+  color: #857ece;
+}
+.div1 img {
+  margin-left: 5px;
+  width: 48px;
+  height: 48px;
+}
+
+.order-price .plan {
+  font-weight: bold;
+}
+.order-price .value {
+  color: #7280a7;
+}
+
+.order-finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #3829e0;
+  outline: none;
+  border: 0px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #fff;
+  margin: 10px;
+  padding: 15px 35px;
+  width: 310px;
+  border-radius: 20px;
+}
+
+.payment-button:hover {
+  background-color: #9a94dd;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  color: #3829e0;
+  cursor: pointer;
+}
+.cancel-button {
+  background-color: transparent;
+  color: #7280a7;
+}
