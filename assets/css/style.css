@@ -87,6 +87,7 @@ main {
 }
 .div1 img {
   margin-left: 5px;
+  align-self: center;
   width: 48px;
   height: 48px;
 }
@@ -136,4 +137,11 @@ main {
     width: 70%;
     height: auto;
   }
+}
+
+@media (max-width:400px) {
+  .order-price {
+    flex-direction: column;
+  }
+
 }
