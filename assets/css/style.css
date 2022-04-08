@@ -112,8 +112,8 @@ main {
   font-size: 14px;
   color: #fff;
   margin: 10px;
-  padding: 15px 35px;
-  width: 310px;
+  width: 75%;
+  padding: 15px 0px;
   border-radius: 20px;
 }
 
@@ -129,4 +129,11 @@ main {
 .cancel-button {
   background-color: transparent;
   color: #7280a7;
+}
+
+@media (max-width:500px) {
+  .order-summery {
+    width: 70%;
+    height: auto;
+  }
 }
