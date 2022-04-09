@@ -39,7 +39,7 @@ main {
 }
 
 .summery-info {
-  padding: 20px;
+  padding: 10px;
 }
 
 .order-info {
@@ -143,5 +143,14 @@ main {
   .order-price {
     flex-direction: column;
   }
+  .order-change {
+    margin-right: 0;
+    margin-top: 5px;
+  }
+}
 
+@media (max-width:300px) {
+  .order-change {
+    margin-top: 25px;
+  }
 }
